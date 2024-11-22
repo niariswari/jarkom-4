@@ -189,31 +189,28 @@ Configuration to every router, client, and server for subnetting.
 
 - Terra:
 
-  ![{6C2C39E3-FA79-4219-8353-5DEE12719AEE}](https://github.com/user-attachments/assets/084ebf42-1195-48c4-b70f-cc3c3956837b)
+  ![{A38D49DB-1E25-4F99-8CF1-56A039EF36EA}](https://github.com/user-attachments/assets/1bd6851f-0a98-441b-903e-6938914f35a5)
+
 
 - Acqua:
 
-  ```
+  ![{D843A7C4-9A2E-4335-A5B9-E7A3706A823F}](https://github.com/user-attachments/assets/3ceeaa77-38df-4ce5-85af-6e188f00ac57)
 
-  ```
 
 - Aiwass:
 
-  ```
+  ![{38022B92-0021-41CC-98DE-A01AA622E403}](https://github.com/user-attachments/assets/99c86570-1e80-4200-b7a9-d42e2480d1b8)
 
-  ```
 
 - Aleister:
 
-  ```
+  ![{9BDC3750-10DB-4D84-8C15-933BF687A091}](https://github.com/user-attachments/assets/ec2b30d7-9748-4081-8882-f28afad20ca1)
 
-  ```
 
 - Mathers:
 
-  ```
+  ![{932283A8-028C-4E07-A6CE-E994566EB973}](https://github.com/user-attachments/assets/230ee07e-0ded-49eb-ba23-8bc36135cd60)
 
-  ```
 
 - Coronzon:
 
@@ -237,9 +234,8 @@ Configuration to every router, client, and server for subnetting.
 
 - Elizard:
 
-  ```
+  ![{E0D27A95-EA38-4E00-9F2C-B07D42EBDB3C}](https://github.com/user-attachments/assets/8224c63b-3c44-44bb-a7cb-189d92ea4da3)
 
-  ```
 
 - Index:
 
@@ -258,9 +254,8 @@ Configuration to every router, client, and server for subnetting.
 
 - Magnus:
 
-  ```
+  ![{B90A1500-9399-48C4-A6E4-2747F14DBC7C}](https://github.com/user-attachments/assets/a4467beb-b4b2-4b99-b1b1-cf518b7e8134)
 
-  ```
 
 - Gremlin:
 
@@ -279,15 +274,13 @@ Configuration to every router, client, and server for subnetting.
 
 - Thor:
 
-  ```
+  ![{1A9C6307-4960-4D52-9A71-87E2652E41C7}](https://github.com/user-attachments/assets/2422165f-e934-45de-ab44-a3f7d1c1322a)
 
-  ```
 
 - Othinus:
 
-  ```
+  ![{64645FFC-332D-41F0-BC21-F4D64FF4F15E}](https://github.com/user-attachments/assets/492a0a08-03b2-4b90-b9b2-5d04ae84d5a2)
 
-  ```
 
 - LastOrder:
 
@@ -306,15 +299,13 @@ Configuration to every router, client, and server for subnetting.
 
 - Leivinia:
 
-  ```
+  ![{6FEDF7A9-B88A-45E4-B237-58FA27C25BD7}](https://github.com/user-attachments/assets/87fe0ead-52e6-493d-bdc4-c4b00b4cfba1)
 
-  ```
 
 - Fuze:
 
-  ```
+  ![{DECE27A6-A2B9-4A0B-8A89-8A6052A442C3}](https://github.com/user-attachments/assets/f138b322-8464-45e4-9052-f20d4037aa03)
 
-  ```
 
 - Accel:
 
@@ -348,27 +339,23 @@ Configuration to every router, client, and server for subnetting.
 
 - MeltDowner:
 
-  ```
+  ![{C5A0F8F1-4583-468D-BECD-784D99A93279}](https://github.com/user-attachments/assets/f35b59d8-8baa-4eed-bd7d-5d8c327490da)
 
-  ```
 
 - MentalOut:
 
-  ```
+  ![{4C1BA933-3D6E-4BB9-A0B4-57C23DE0EAC1}](https://github.com/user-attachments/assets/1a442b69-c616-462b-8373-58206102dc5a)
 
-  ```
 
 - DarkMatter:
 
-  ```
+  ![{272CA1FC-BDAD-4F03-B833-3BBB46D4AF89}](https://github.com/user-attachments/assets/5e9b10c1-3bf7-4cba-8c5c-aa58ee96e685)
 
-  ```
 
 - Noukan:
 
-  ```
+  ![{C0D2B0C8-C036-4C55-88D1-F425BFAF36B0}](https://github.com/user-attachments/assets/03e0534f-fe8b-42fe-b1df-7375375e2727)
 
-  ```
 
 
 ### Routing
@@ -384,13 +371,16 @@ Configuration to every router for routing.
   ip route 10.25.0.0 255.255.248.0 10.25.16.2 
   ip route 10.25.36.32 255.255.255.252 10.25.40.2 
   ip route 10.25.36.16 255.255.255.252 10.25.40.2 
-  ip route 10.25.32.0 255.255.254.0 10.25.40.2 
+  ip route 10.25.32.0 255.255.254.0 10.25.40.2
+  ip route 10.25.36.0 255.255.255.240 10.25.40.2
+  ip route 10.25.34.0 255.255.255.240 10.25.40.2
+  ip route 10.25.36.64 255.255.255.240 10.25.40.2
   ip route 10.25.64.0 255.255.254.0 10.25.68.2 
   ip route 10.25.66.0 255.255.255.128 10.25.68.2 
   ip route 10.25.80.128 255.255.255.224 10.25.84.2 
   ip route 10.25.80.0 255.255.255.128 10.25.84.2 
+  ip route 10.25.81.0 255.255.255.128 10.25.84.2 
   ip route 10.25.82.0 255.255.255.252 10.25.84.2 
-  ip route 10.25.36.0 255.255.255.240 10.25.40.2 
   ```
 
 - Fiamma:
@@ -411,7 +401,8 @@ Configuration to every router for routing.
   ```
   ip route 10.25.36.32 255.255.255.252 10.25.36.66 
   ip route 10.25.32.0 255.255.254.0 10.25.34.2 
-  ip route 10.25.36.0 255.255.255.240 10.25.36.66 
+  ip route 10.25.36.0 255.255.255.240 10.25.36.66
+  ip route 10.25.36.16 255.255.255.240 10.25.36.66
   ip route 0.0.0.0 0.0.0.0 10.25.40.1 
   ```
 
@@ -478,24 +469,30 @@ Configuration to every router for routing.
 
 - Client - client
 
-  
+  ![{A1BBF769-F172-4311-A70E-0DE476C8EA89}](https://github.com/user-attachments/assets/49f12d86-47bf-4f19-8481-8a10711a9dd7)
+
 
 - Client - Server
 
-  
+  ![{17D639B7-F2D1-4452-B954-788C318F8B4B}](https://github.com/user-attachments/assets/d28322cc-b53e-4de5-b78a-9eca0c39ce94)
+
 
 - Client - Router
 
-  
+  ![{08BF771C-AECF-43A6-BCB9-1D641A0B2079}](https://github.com/user-attachments/assets/a62a4b58-a551-418c-87e0-242b2e1b540b)
+
 
 - Server - Server
 
-  
+  ![{7EFA7A89-36C2-4855-94A1-4F02D241704E}](https://github.com/user-attachments/assets/4af5cfae-1f0c-4b3c-bc5d-66b8072fdb24)
+
 
 - Server - Router
 
-  
+  ![{A5088AA0-8D17-40E9-8651-A6AF8025B733}](https://github.com/user-attachments/assets/d8fe2186-b51f-46da-a31f-e168f82c3ea1)
+
 
 - Router - Router
 
-  
+  ![{4B673F83-3D42-4990-AA36-9098D013D114}](https://github.com/user-attachments/assets/bfb940a5-fbcf-4e7f-93e6-0ee7a3b97b2d)
+
