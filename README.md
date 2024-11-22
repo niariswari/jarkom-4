@@ -9,9 +9,8 @@
 
 - IP distribution table
 
-  ![Distribution Table CIDR](https://github.com/user-attachments/assets/ab2d37b7-9b5d-4a57-9a2d-206fe86fc58c)
+  ![DISTRIBUTION-TABLE-CIDR](https://github.com/user-attachments/assets/54662296-b076-4900-8ba7-d9da64ed0a13)
 
-  
 
 
 ### Subnet Merging Iteration
