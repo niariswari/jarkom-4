@@ -9,7 +9,8 @@
 
 - IP distribution table
 
-  ![DISTRIBUTION-TABLE-CIDR](https://github.com/user-attachments/assets/54662296-b076-4900-8ba7-d9da64ed0a13)
+  ![DISTRIBUTION TABLE-CIDR](https://github.com/user-attachments/assets/01c7596f-ccfd-49e4-936f-0bc05d0639d5)
+
 
 
 
