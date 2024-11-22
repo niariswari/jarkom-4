@@ -1,3 +1,17 @@
+## Routing
+
+- Routing table
+
+  ![{F3ADE6A5-6F64-448F-BBAA-116467A7CE23}](https://github.com/user-attachments/assets/9a6e5b80-79e4-4e1c-a476-49b138fd8db0)
+
+
+- Route visualization in topology
+
+  ![A1](https://github.com/user-attachments/assets/1a34b671-1248-4131-b9ba-3ef6b0828492)
+
+
+<br>
+
 ## CIDR
 
 ### Tree
