@@ -28,6 +28,8 @@
 
 ### Subnet Merging Iteration
 
+![IMG_8505](https://github.com/user-attachments/assets/b6a34a91-f568-4ea5-b15f-d3fa8cad6358)
+
 - Iteration 1
 
   ![MERGE-B](https://github.com/user-attachments/assets/378c9d5a-66f4-4464-bdbb-cefbdcc2db6f)
