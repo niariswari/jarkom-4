@@ -190,12 +190,7 @@ Configuration to every router, client, and server for subnetting.
 
 - Terra:
 
-  ```
-
   ![{6C2C39E3-FA79-4219-8353-5DEE12719AEE}](https://github.com/user-attachments/assets/084ebf42-1195-48c4-b70f-cc3c3956837b)
-
-
-  ```
 
 - Acqua:
 
