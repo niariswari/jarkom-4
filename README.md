@@ -9,8 +9,7 @@
 
 - IP distribution table
 
-  ![DISTRIBUTION TABLE-CIDR](https://github.com/user-attachments/assets/01c7596f-ccfd-49e4-936f-0bc05d0639d5)
-
+  ![IP-TABLE-CIDR](https://github.com/user-attachments/assets/3be82491-2015-48b9-a716-df979362af0d)
 
 
 
@@ -53,25 +52,330 @@
 
 ### Subnetting (If you use CPT)
 
-  - Kamachi:
-    
-    
+Configuration to every router, client, and server for subnetting.
 
-  - Fiamma:
-    
-    
+- Kamachi:
 
-  - Acqua:
-    
-    
+  ```
+  interface FastEthernet0/1
+   ip address 10.25.76.1 255.255.255.252
+   duplex auto
+   speed auto
+  !
+  interface Ethernet0/0/0
+   ip address 10.25.68.1 255.255.255.252
+   duplex auto
+   speed auto
+  !
+  interface Ethernet0/1/0
+   ip address 10.25.84.1 255.255.255.252
+   duplex auto
+   speed auto
+  !
+  interface FastEthernet1/0
+   ip address 10.25.16.1 255.255.255.252
+   duplex auto
+   speed auto
+  !
+  interface FastEthernet1/1
+   ip address 10.25.10.41 255.255.255.252
+   duplex auto
+   speed auto
+  ```
 
-  - Vento:
-    
+- Fiamma:
 
-    
-  - Terra:
-    
-    
+  ```
+  interface FastEthernet0/0
+   ip address 10.25.76.2 255.255.255.252
+   duplex auto
+   speed auto
+  !
+  interface FastEthernet0/1
+   ip address 10.25.74.1 255.255.254.0
+   duplex auto
+   speed auto
+  !
+  ```
+
+- GoldenDawn:
+
+  ```
+  interface FastEthernet0/0
+   ip address 10.25.16.2 255.255.255.252
+   duplex auto
+   speed auto
+  !
+  interface FastEthernet0/1
+   ip address 10.25.0.1 255.255.248.0
+   duplex auto
+   speed auto
+  !
+  interface FastEthernet1/0
+   ip address 10.25.8.1 255.255.255.252
+   duplex auto
+   speed auto
+  !
+  ```
+
+- Necessarius:
+
+  ```
+  interface FastEthernet0/0
+   ip address 10.25.10.42 255.255.255.252
+   duplex auto
+   speed auto
+  !
+  interface FastEthernet0/1
+   ip address 10.25.36.65 255.255.255.252
+   duplex auto
+   speed auto
+  !
+  interface FastEthernet1/0
+   ip address 10.25.34.1 255.255.255.252
+   duplex auto
+   speed auto
+  !
+  ```
+
+- Alice:
+
+  ```
+  interface FastEthernet0/0
+   ip address 10.25.68.2 255.255.255.252
+   duplex auto
+   speed auto
+  !
+  interface FastEthernet0/1
+   ip address 10.25.64.1 255.255.254.0
+   duplex auto
+   speed auto
+  !
+  ```
+
+- Kihara:
+
+  ```
+  interface FastEthernet0/0
+   ip address 10.25.84.2 255.255.255.252
+   duplex auto
+   speed auto
+  !
+  interface FastEthernet0/1
+   ip address 10.25.81.1 255.255.255.252
+   duplex auto
+   speed auto
+  !
+  interface FastEthernet1/0
+   ip address 10.25.82.1 255.255.255.252
+   duplex auto
+   speed auto
+  !
+  ```
+
+- Vento:
+
+  ```
+  interface FastEthernet0/0
+   ip address 10.25.74.3 255.255.254.0
+   duplex auto
+   speed auto
+  !
+  interface FastEthernet0/1
+   ip address 10.25.72.1 255.255.255.224
+   duplex auto
+   speed auto
+  !
+  ```
+
+- Terra:
+
+  ```
+
+  ![{6C2C39E3-FA79-4219-8353-5DEE12719AEE}](https://github.com/user-attachments/assets/084ebf42-1195-48c4-b70f-cc3c3956837b)
+
+
+  ```
+
+- Acqua:
+
+  ```
+
+  ```
+
+- Aiwass:
+
+  ```
+
+  ```
+
+- Aleister:
+
+  ```
+
+  ```
+
+- Mathers:
+
+  ```
+
+  ```
+
+- Coronzon:
+
+  ```
+  interface FastEthernet0/0
+   ip address 10.25.36.66 255.255.255.252
+   duplex auto
+   speed auto
+  !
+  interface FastEthernet0/1
+   ip address 10.25.36.33 255.255.255.252
+   duplex auto
+   speed auto
+  !
+  interface FastEthernet1/0
+   ip address 10.25.36.17 255.255.255.252
+   duplex auto
+   speed auto
+  !
+  ```
+
+- Elizard:
+
+  ```
+
+  ```
+
+- Index:
+
+  ```
+  interface FastEthernet0/0
+   ip address 10.25.36.18 255.255.255.252
+   duplex auto
+   speed auto
+  !
+  interface FastEthernet0/1
+   ip address 10.25.36.1 255.255.255.240
+   duplex auto
+   speed auto
+  !
+  ```
+
+- Magnus:
+
+  ```
+
+  ```
+
+- Gremlin:
+
+  ```
+  interface FastEthernet0/0
+   ip address 10.25.34.2 255.255.255.252
+   duplex auto
+   speed auto
+  !
+  interface FastEthernet0/1
+   ip address 10.25.32.1 255.255.254.0
+   duplex auto
+   speed auto
+  !
+  ```
+
+- Thor:
+
+  ```
+
+  ```
+
+- Othinus:
+
+  ```
+
+  ```
+
+- LastOrder:
+
+  ```
+  interface FastEthernet0/0
+   ip address 10.25.65.254 255.255.254.0
+   duplex auto
+   speed auto
+  !
+  interface FastEthernet0/1
+   ip address 10.25.66.1 255.255.255.128
+   duplex auto
+   speed auto
+  !
+  ```
+
+- Leivinia:
+
+  ```
+
+  ```
+
+- Fuze:
+
+  ```
+
+  ```
+
+- Accel:
+
+  ```
+  interface FastEthernet0/0
+   ip address 10.25.81.2 255.255.255.252
+   duplex auto
+   speed auto
+  !
+  interface FastEthernet0/1
+   ip address 10.25.80.1 255.255.255.128
+   duplex auto
+   speed auto
+  !
+  ```
+
+- Railgun:
+
+  ```
+  interface FastEthernet0/0
+   ip address 10.25.80.111 255.255.255.128
+   duplex auto
+   speed auto
+  !
+  interface FastEthernet0/1
+   ip address 10.25.80.129 255.255.255.224
+   duplex auto
+   speed auto
+  !
+  ```
+
+- MeltDowner:
+
+  ```
+
+  ```
+
+- MentalOut:
+
+  ```
+
+  ```
+
+- DarkMatter:
+
+  ```
+
+  ```
+
+- Noukan:
+
+  ```
+
+  ```
+
 
 ### Routing
 
@@ -80,103 +384,124 @@ Configuration to every router for routing.
 - Kamachi:
 
   ```
-    Put your configuration here
+  ip route 10.25.74.0 255.255.254.0 10.25.76.2 
+  ip route 10.25.72.0 255.255.255.224 10.25.76.2 
+  ip route 10.25.8.0 255.255.255.252 10.25.16.2 
+  ip route 10.25.0.0 255.255.248.0 10.25.16.2 
+  ip route 10.25.36.32 255.255.255.252 10.25.10.42 
+  ip route 10.25.36.16 255.255.255.252 10.25.10.42 
+  ip route 10.25.32.0 255.255.254.0 10.25.10.42 
+  ip route 10.25.64.0 255.255.254.0 10.25.68.2 
+  ip route 10.25.66.0 255.255.255.128 10.25.68.2 
+  ip route 10.25.80.128 255.255.255.224 10.25.84.2 
+  ip route 10.25.80.0 255.255.255.128 10.25.84.2 
+  ip route 10.25.82.0 255.255.255.252 10.25.84.2 
+  ip route 10.25.36.0 255.255.255.240 10.25.10.42 
   ```
 
 - Fiamma:
 
   ```
-    Put your configuration here
+  ip route 0.0.0.0 0.0.0.0 10.25.76.1 
+  ip route 10.25.72.0 255.255.255.224 10.25.74.3
   ```
 
 - GoldenDawn:
 
   ```
-    Put your configuration here
+  ip route 0.0.0.0 0.0.0.0 10.25.16.1 
   ```
 
 - Necessarius:
 
   ```
-    Put your configuration here
+  ip route 10.25.36.32 255.255.255.252 10.25.36.66 
+  ip route 10.25.32.0 255.255.254.0 10.25.34.2 
+  ip route 10.25.36.0 255.255.255.240 10.25.36.66 
+  ip route 0.0.0.0 0.0.0.0 10.25.10.41 
   ```
 
 - Alice:
 
   ```
-    Put your configuration here
+  ip route 10.25.66.0 255.255.255.128 10.25.65.254 
+  ip route 0.0.0.0 0.0.0.0 10.25.68.1 
   ```
 
 - Kihara:
 
   ```
-    Put your configuration here
+  ip route 10.25.80.0 255.255.255.128 10.25.81.2 
+  ip route 10.25.80.128 255.255.255.224 10.25.81.2 
+  ip route 0.0.0.0 0.0.0.0 10.25.84.1
   ```
 
 - Vento:
 
   ```
-    Put your configuration here
+  ip route 0.0.0.0 0.0.0.0 10.25.74.1 
   ```
 
 - Coronzon:
 
   ```
-    Put your configuration here
+  ip route 10.25.36.0 255.255.255.240 10.25.36.18 
+  ip route 0.0.0.0 0.0.0.0 10.25.36.65 
   ```
 
 - Index:
 
   ```
-    Put your configuration here
+  ip route 0.0.0.0 0.0.0.0 10.25.36.17 
   ```
 
 - Gremlin:
 
   ```
-    Put your configuration here
+  ip route 0.0.0.0 0.0.0.0 10.25.34.1 
   ```
 
 - LastOrder:
 
   ```
-    Put your configuration here
+  ip route 0.0.0.0 0.0.0.0 10.25.64.1 
   ```
 
 - Accel:
 
   ```
-    Put your configuration here
+  ip route 10.25.80.128 255.255.255.224 10.25.80.111 
+  ip route 0.0.0.0 0.0.0.0 10.25.81.1 
   ```
 
 - Railgun:
 
   ```
-    Put your configuration here
+  ip route 0.0.0.0 0.0.0.0 10.25.80.1 
   ```
 
 ### Testing
 
 - Client - client
 
-  `Put your testing screenshot in here`
+  
 
 - Client - Server
 
-  `Put your testing screenshot in here`
+  
 
 - Client - Router
 
-  `Put your testing screenshot in here`
+  
 
 - Server - Server
 
-  `Put your testing screenshot in here`
+  
 
 - Server - Router
 
-  `Put your testing screenshot in here`
+  
 
 - Router - Router
 
-  `Put your testing screenshot in here`
+  
