@@ -4,13 +4,12 @@
 
 - Tree image
 
-  ![TREE-CIDR](https://github.com/user-attachments/assets/bfa0d430-6f21-49d8-a3b1-5833dc27589f)
+  ![TREE-CIDR](https://github.com/user-attachments/assets/27e9514a-d986-464a-a1e4-7e79f3d78087)
 
 
 - IP distribution table
 
-  ![IP-TABLE-CIDR](https://github.com/user-attachments/assets/3be82491-2015-48b9-a716-df979362af0d)
-
+  ![TABLE-CIDR](https://github.com/user-attachments/assets/14c41443-b0cb-4e30-b90b-3ec7b62594eb)
 
 
 ### Subnet Merging Iteration
@@ -78,7 +77,7 @@ Configuration to every router, client, and server for subnetting.
    speed auto
   !
   interface FastEthernet1/1
-   ip address 10.25.10.41 255.255.255.252
+   ip address 10.25.40.1 255.255.255.252
    duplex auto
    speed auto
   ```
@@ -122,7 +121,7 @@ Configuration to every router, client, and server for subnetting.
 
   ```
   interface FastEthernet0/0
-   ip address 10.25.10.42 255.255.255.252
+   ip address 10.25.40.2 255.255.255.252
    duplex auto
    speed auto
   !
@@ -383,15 +382,15 @@ Configuration to every router for routing.
   ip route 10.25.72.0 255.255.255.224 10.25.76.2 
   ip route 10.25.8.0 255.255.255.252 10.25.16.2 
   ip route 10.25.0.0 255.255.248.0 10.25.16.2 
-  ip route 10.25.36.32 255.255.255.252 10.25.10.42 
-  ip route 10.25.36.16 255.255.255.252 10.25.10.42 
-  ip route 10.25.32.0 255.255.254.0 10.25.10.42 
+  ip route 10.25.36.32 255.255.255.252 10.25.40.2 
+  ip route 10.25.36.16 255.255.255.252 10.25.40.2 
+  ip route 10.25.32.0 255.255.254.0 10.25.40.2 
   ip route 10.25.64.0 255.255.254.0 10.25.68.2 
   ip route 10.25.66.0 255.255.255.128 10.25.68.2 
   ip route 10.25.80.128 255.255.255.224 10.25.84.2 
   ip route 10.25.80.0 255.255.255.128 10.25.84.2 
   ip route 10.25.82.0 255.255.255.252 10.25.84.2 
-  ip route 10.25.36.0 255.255.255.240 10.25.10.42 
+  ip route 10.25.36.0 255.255.255.240 10.25.40.2 
   ```
 
 - Fiamma:
@@ -413,7 +412,7 @@ Configuration to every router for routing.
   ip route 10.25.36.32 255.255.255.252 10.25.36.66 
   ip route 10.25.32.0 255.255.254.0 10.25.34.2 
   ip route 10.25.36.0 255.255.255.240 10.25.36.66 
-  ip route 0.0.0.0 0.0.0.0 10.25.10.41 
+  ip route 0.0.0.0 0.0.0.0 10.25.40.1 
   ```
 
 - Alice:
